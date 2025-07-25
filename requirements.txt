@@ -1,0 +1,22 @@
+# Adobe Hackathon Round 1A - Requirements
+# Optimized for offline execution and <200MB constraint
+
+# Core PDF processing (essential)
+PyMuPDF==1.23.26
+# Alternative PDF processing (backup)
+pdfplumber==0.10.0
+
+# Text processing and utilities
+regex==2023.10.3
+
+# JSON handling (built-in, but explicit version for consistency)
+# json - built-in Python module
+
+# File operations and path handling
+pathlib  # built-in Python module
+
+# Performance and optimization
+# No additional ML/NLP libraries needed for Round 1A
+# Using rule-based font analysis approach
+
+# Total estimated size: ~15-20MB (well under 200MB limit)
